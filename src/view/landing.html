@@ -1,0 +1,82 @@
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/materialize.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/materialize.css">
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" cogitntent="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <div class="slider fullscreen" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+
+    <ul class="slides">
+      <li class="active" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+        <img src="assets/img/2.jpg" style="background-image: url(&quot;https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?dpr=1&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=799&amp;q=80&amp;cs=tinysrgb&amp;crop=&quot;);">
+        <!-- random image -->
+        <div class="caption center-align" style="opacity: 5; transform: translateY(0px) translateX(0px);">
+          <h3>Mi práctica docente me enseño a pensar como un design UX</h3>
+          <h5 class="light grey-text text-lighten-3">Comprendiendo sus motivaciones, frustraciones y espectativas en el proceso de aprenizaje</h5>
+
+        </div>
+      </li>
+
+      <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
+        <img src="assets/img/megusta.png">
+        <!-- random image -->
+        <div class="caption right-align" style="opacity: 0; transform: translateX(100px) translateY(0px);">
+          <h3>Me encanta crear nuevas experiencias agradables para mis usuarios </h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
+        <img src="assets/img/1.jpg">
+        <!-- random image -->
+        <div class="caption right-align" style="opacity: 0; transform: translateX(100px) translateY(0px);">
+          <h3>La pasión por lo que uno hace es lo que marca la diferencia</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+
+      </li>
+
+    </ul>
+    <ul class="indicators">
+      <li class="indicator-item active"></li>
+      <li class="indicator-item"></li>
+      <li class="indicator-item"></li>
+    </ul>
+    <div class="fixed-action-btn active" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large red next_week">
+          <i class="material-icons">directions</i>
+       
+        </a>
+        <ul>
+          <li><a href="../index.html" class="btn-floating red" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i  class="material-icons">home</i></a></li>
+          <li><a class="btn-floating yellow darken-1" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">person</i></a></li>
+          <li><a class="btn-floating green" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">work</i></a></li>
+          <li><a class="btn-floating blue" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">email</i></a></li>
+        </ul>
+      </div>
+  </div>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').slider();
+    });
+  </script>
+</body>
+
+</html>
